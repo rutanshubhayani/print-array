@@ -1,0 +1,52 @@
+ .array-input {
+     background-color: white;
+     padding: 20px;
+     align-content: center;
+     border-radius: 5px;
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+     width: 50%;
+     height: 40%;
+ }
+
+ .container-fluid {
+     background-color: #f1f5f8;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     width: 100%;
+ }
+
+ .heading {
+     color: darkblue;
+     text-align: center;
+     letter-spacing: 5px;
+     font-weight: bold;
+     font-size: 25px;
+ }
+
+ .items {
+     color: red;
+     text-align: center;
+     font-weight: bold;
+     letter-spacing: 5px;
+     cursor: pointer;
+ }
+
+ .sbtn {
+     background-color: lightblue;
+     color: darkblue;
+     letter-spacing: 2px;
+     border: none;
+     font-weight: bold;
+     border-radius: 5px;
+     padding: 0 10px;
+ }
+
+
+ @media only screen and (max-width: 500px) {
+    
+    .array-input{
+        width: 80%;
+    }
+ }
